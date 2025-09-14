@@ -1,0 +1,32 @@
+{
+  "name": "lru",
+  "version": "0.1.0",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "license": "MIT",
+  "description": "JavaScript LRU cache",
+  "exports": "./main.js",
+  "types": "main.d.ts",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "LRU",
+    "Cache"
+  ],
+  "files": [
+    "main.d.ts"
+  ],
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "homepage": "https://github.com/NaughtySora/lru#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaughtySora/lru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NaughtySora/lru/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
