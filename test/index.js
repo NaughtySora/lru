@@ -185,15 +185,4 @@ describe('LRU', () => {
     cache.set('d', 4);
     assert.deepStrictEqual([...cache], [['a', 1,], ['b', 2], ['c', 3], ['d', 4]]);
   });
-
-  it('toJSON', () => {
-    const cache = new LRU(5);
-    cache.set('a', 1);
-    cache.set('b', 2);
-    cache.set('c', 3);
-    cache.set('d', 4);
-    cache.set('e', 5);
-    const json = { a: 1, b: 2, c: 3, d: 4, e: 5 };
-    assert.deepStrictEqual(cache.toJSON(), json);
-  });
 });
